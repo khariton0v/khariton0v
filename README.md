@@ -1,16 +1,100 @@
-## Hi there 👋
+# 👋 Привет, я Дмитрий Харитонов
 
-<!--
-**khariton0v/khariton0v** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+**Data Scientist**  
 
-Here are some ideas to get you started:
+---
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+### 🧠 Обо мне
+
+> *Больше полутора лет занимаюсь Data Science. Всегда имел тягу к исследовательской деятельности, поиску закономерностей. Возможность подтверждать догадки конкретными цифрами окончательно повлияла на решение развиваться в направлении ML.*
+
+- Выпускник РГУ нефти и газа (НИУ) им. И.М. Губкина по специализации «Технологии информационно-аналитического мониторинга».
+- Постоянно учусь: сейчас углубляю нейросети (Stepik), читаю статьи на Habr.
+- Ищу работу/стажировку на полный день. Предпочитаю очный или гибридный формат, но и удалёнка — ок.
+- Моя цель — решать бизнес-задачи, а не гнаться за метриками. Декомпозирую проблему, предлагаю нетривиальные решения и отвечаю за результат.
+
+---
+
+### 🛠️ Технический стек
+
+| Область | Инструменты |
+|---------|-------------|
+| **Языки** | Python , SQL (PostgreSQL), Bash |
+| **ML/DL** | TensorFlow, Keras, PyTorch, Scikit-learn, LightGBM, CatBoost |
+| **NLP** | BERT, DistilBERT, spaCy, VADER, TF‑IDF, Zero‑Shot |
+| **Визуализация** | Matplotlib, Seaborn, Plotly |
+| **Анализ данных** | Pandas, NumPy, SciPy, StatsModels, ARIMA, phik |
+| **Интерпретация** | SHAP, Permutation Importance |
+| **Снижение размерности** | PCA, UMAP |
+| **Кластеризация** | K‑means, HDBSCAN |
+| **Автоматизация** | Pipeline, ColumnTransformer, Optuna |
+| **Парсинг** | BeautifulSoup, requests, Selenium |
+| **Прочее** | Git, Linux, OSINT, Jupyter, Quantum ML (Pennylane) |
+
+---
+
+### 📌 Проекты (избранное)
+
+#### 🔥 Мониторинг террористической опасности в Нигерии (2024–2025)  
+[Ссылка на репозиторий](https://github.com/khariton0v/Terror-checker-Nigeria)
+
+- Обработано 20 000+ новостей и 2 000+ твитов.
+- Семантическая разметка по 5 аспектам (терроризм, экономика, институты, идеология, ресурсы).
+- Кластеризация событий (UMAP + HDBSCAN) с географической привязкой.
+- Расчёт индексов тяжести, корреляции с лагами до 8 недель.
+- Построены карты и динамические графики угроз.  
+**Стек:** Python, Pandas, NumPy, Scikit‑learn, PyTorch, SentenceTransformers, UMAP, HDBSCAN, TF‑IDF, VADER, DistilBERT, Matplotlib.
+
+---
+
+#### 👤 Определение возраста по фото (Computer Vision)  
+[Репозиторий](https://github.com/khariton0v/Computer-vision-customers-age)  
+MAE: **6,4** — модель предсказывает возраст по фотографии.
+
+---
+
+#### 🗣️ Выявление токсичных комментариев (NLP)  
+[Репозиторий](https://github.com/khariton0v/NLP-BERT-Toxic-comment-detection)  
+F1: **0,81** — классификация токсичности с использованием BERT.
+
+---
+
+#### ⚛️ Квантовое машинное обучение (QML)  
+[Репозиторий](https://github.com/khariton0v/Quantum-machine-learning)  
+Эксперимент с вариационными схемами и Pennylane.
+
+---
+
+#### ⛽ Прогнозирование прибыльности бурения скважин  
+[Репозиторий](https://github.com/khariton0v/Region-for-drilling)
+
+- Анализ рисков методом Bootstrap.
+- Выбран регион с риском <2% и максимальной прибылью.
+- Модели: Linear, Ridge, Lasso, ElasticNet. Оптимизация через Optuna, интерпретация SHAP.
+
+---
+
+#### Прогноз оттока клиентов телеком‑оператора  
+[Репозиторий](https://github.com/khariton0v/Customer-Churn-Forecast-Telecom-Operator)
+
+- ROC‑AUC **0.9**.
+- Использованы SVC, CatBoost, KNN, Decision Tree, Pipeline, Optuna, SHAP.
+
+---
+
+### 🎓 Образование и курсы
+
+- **РГУ нефти и газа (НИУ) им. И.М. Губкина** (2026)  
+  Специалитет по направлению «Комплексная безопасность ТЭК», технологии информационно-аналитического мониторинга.
+- **Яндекс Практикум** (2025) — «Специалист по Data Science».
+- **Курсы по администрированию ОС Альт** (2023–2024) — автоматизация shell-скриптами.
+- **Эвристика и алгоритмические методы** (2021) — решение изобретательских задач.
+
+---
+
+### 📚 Любимые книги по теме
+
+1. **Грас Д. «Data Science. Наука о данных с нуля»** — отличное введение в матстат и ML.
+2. **Учебник по машинному обучению от Yandex Education** — структурированный материал, который всегда под рукой.
+
+---
